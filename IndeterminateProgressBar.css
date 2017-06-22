@@ -1,0 +1,18 @@
+/**
+ * Created by Archana on 22-06-2017.
+ */
+.THIS.progress-bar-striped {
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent) !important;
+    background-size: 50px 50px !important;
+}
+.THIS.progress-bar-success{
+    background-color: #5bc0de;
+}
+.THIS.indeterminate {
+  position: relative;
+  animation: progress-indeterminate 1s linear infinite;
+}
+@keyframes progress-indeterminate {
+from  { background-position: 40px 0; }
+  to    { background-position: 0 0; }
+}

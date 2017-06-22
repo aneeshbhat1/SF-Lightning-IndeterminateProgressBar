@@ -1,0 +1,11 @@
+<!--
+ - Created by Archana on 22-06-2017.
+ -->
+
+<aura:component description="IndeterminateProgressBar" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes">
+    <div class="slds-progress-bar slds-progress-bar_circular slds-progress-bar_large progress-bar-striped progress-bar-success indeterminate" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" role="progressbar">
+
+        <span class="slds-assistive-text">Progress: 100%</span>
+
+    </div>
+</aura:component>
